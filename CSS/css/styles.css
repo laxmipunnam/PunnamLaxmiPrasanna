@@ -1,0 +1,29 @@
+/************ tag selector *******************/
+body{
+    background-color: beige;
+}
+h1{
+    color: red;
+    font-size: 100px;
+}
+
+img:hover {
+    background-color: goldenrod;
+}
+/************** class selectors****************/
+
+.Coffee {
+    background-color: rgb(158, 202, 122);
+}
+
+.Apple {
+    background-color: rgb(85, 30, 5);
+}
+
+.circular {
+    border-radius: 100%;
+}
+/**************** ID selectors ********************/
+#heading {
+    color: blue;
+}
