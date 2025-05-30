@@ -1,0 +1,7 @@
+name = input('what is your name? ')
+color = input('enter your favourite color = ')
+print(name + ' likes ' + color)
+brith_year = int(input('birth year= '))
+age = 2025 - brith_year # 2025 - int(brith_year)
+print(type(age))
+print(age)
