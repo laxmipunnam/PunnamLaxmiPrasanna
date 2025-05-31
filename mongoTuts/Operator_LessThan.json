@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "683b1b7f47ffd452526b5192"
+  },
+  "name": "Laxmi",
+  "age": 22,
+  "gpa": 8.6,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "683b1b7f47ffd452526b5194"
+  },
+  "name": "Pavani",
+  "age": 21,
+  "gpa": 7.6,
+  "fullTime": true
+}]

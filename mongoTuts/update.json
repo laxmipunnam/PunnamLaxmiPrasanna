@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "683b1b7f47ffd452526b5192"
+  },
+  "name": "Laxmi",
+  "age": 22,
+  "gpa": 8.6,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "683b1b7f47ffd452526b5193"
+  },
+  "name": "Sai",
+  "age": 24,
+  "gpa": 6.3,
+  "fullTime": true
+},
+{
+  "_id": {
+    "$oid": "683b1b7f47ffd452526b5194"
+  },
+  "name": "Pavani",
+  "age": 21,
+  "gpa": 7.6,
+  "fullTime": true
+},
+{
+  "_id": {
+    "$oid": "683b220c47ffd452526b5196"
+  },
+  "name": "Prasanna",
+  "age": 23,
+  "gpa": 7.5,
+  "fullTime": false,
+  "registerDate": {
+    "$date": "2025-05-31T15:36:44.424Z"
+  },
+  "gradutionDate": null,
+  "courses": [
+    "Maths",
+    "Physics",
+    "chemistry"
+  ],
+  "address": {
+    "street": "KSR Street",
+    "city": "Hanamkonda",
+    "zip": 506001
+  }
+}]
