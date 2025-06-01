@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100vh;
+}
+body {
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#parent {
+    display: flex;
+    flex-direction: column;/* Make it stack vertically */
+    flex: 1;
+    /*flex-direction: column;
+    width: 100%;*/
+}
+
+nav {
+    width: 100%;
+}
+
+section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+section {
+    position: relative;
+}
+
+section span {
+    position: absolute;
+    color: rgb(239, 244, 248);
+    background: blueviolet;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+}
+nav, footer {
+    flex-shrink: 0;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Aligns items to the right */
+    width: 100%;               /* Ensures ul takes full width */
+}
+
+nav ul li {
+    padding: 10px;
+    margin: 2px;
+    list-style: none;
+}
+
+#logo {
+    width: 80vw;
+    height: 200px;
+    background: red;
+}
+
+.layer {
+    padding:  10px 20px;
+    border-bottom: 2px solid gray;
+    background: rgb(219, 219, 219);
+    width: 100vw;
+}

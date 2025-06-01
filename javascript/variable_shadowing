@@ -1,0 +1,9 @@
+const  k= 22
+if(true){
+    const k = 27
+    function printMyage(){
+        let k
+        console.log(k)
+    }
+    printMyage()
+}
